@@ -1,5 +1,5 @@
 # WhatFoodProject
-Projeto desenvolvido na disciplina de desenvolvimento para dispositivos móveis
+Projeto desenvolvido na disciplina de programação para dispositivos móveis
 O nome do aplicativo é WhatFood
 Acadêmicos: Eduardo Ludwig e Jonathan Dalpiaz
 WhatFood tem como objetivo sugerir ao usuário uma lista de receitas possíveis de serem feitas com os alimentos que o usuário tiver disponível.
