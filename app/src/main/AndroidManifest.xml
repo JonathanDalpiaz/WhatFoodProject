@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.CadastroActivity" />
-        <activity android:name=".ui.ReceitaActivity"></activity>
+        <activity android:name=".ui.ReceitaActivity" />
+        <activity android:name=".ui.AlimentosCadastradosActivity"></activity>
     </application>
 
 </manifest>

@@ -1,5 +1,7 @@
 package br.edu.unoesc.pdm.whatfood.ui;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,13 +20,25 @@ public class MainActivity extends AppCompatActivity {
 
     public void mostrarReceita(View v){
 
+        Intent intent = new Intent(this, ReceitaActivity.class);
+        startActivity(intent);
+        finish();
+
     }
 
     public void mostrarAlimento(View v){
 
+        Intent intent = new Intent(this, AlimentosCadastradosActivity.class);
+        startActivity(intent);
+        finish();
+
     }
 
     public void cadastrarAlimento(View v){
+
+        Intent intent = new Intent(this, CadastroActivity.class);
+        startActivity(intent);
+        finish();
 
     }
 
