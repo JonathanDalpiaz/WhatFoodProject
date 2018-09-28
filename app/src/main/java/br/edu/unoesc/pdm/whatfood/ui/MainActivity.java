@@ -2,6 +2,7 @@ package br.edu.unoesc.pdm.whatfood.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import br.edu.unoesc.pdm.whatfood.R;
 
@@ -11,5 +12,20 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
+
+    public void mostrarReceita(View v){
+
+    }
+
+    public void mostrarAlimento(View v){
+
+    }
+
+    public void cadastrarAlimento(View v){
+
+    }
+
 }
